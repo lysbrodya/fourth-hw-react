@@ -1,0 +1,37 @@
+.searchForm {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 auto;
+  width: 30vw;
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+  background-color: #fff;
+  padding: 0;
+  height: 30px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+.searchButton {
+  height: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.searchInput {
+  height: 100%;
+  flex: 1;
+  border: none;
+  outline: none;
+}
+.heder {
+  background-color: rgb(11, 27, 131);
+  position: sticky;
+  top: 0;
+  z-index: 100000;
+}

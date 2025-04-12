@@ -1,0 +1,17 @@
+.imageModal {
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  max-width: 90vw; /* Ограничиваем ширину изображения */
+  max-height: 90vh; /* Ограничиваем высоту изображения */
+  object-fit: contain; /* Масштабируем изображение, сохраняя пропорции */
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  z-index: 1000;
+  margin-top: 15px;
+  background-color: darkslateblue;
+}
