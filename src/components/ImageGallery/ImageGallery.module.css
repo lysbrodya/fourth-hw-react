@@ -5,7 +5,7 @@
   padding: 10px;
 }
 .imageGalleryItem {
-  flex-basis: calc((100% - 40px) / 5);
+  flex-basis: calc((100% - 40px) / 4);
   height: 200px;
   overflow: hidden;
   border-radius: 8px;
